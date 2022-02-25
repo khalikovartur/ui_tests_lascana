@@ -3,6 +3,7 @@ from pom.smoke_regis_auth import AuthPage
 import time
 
 def test_authentification_user(web_browser):
+    """Authentification with existing user data """
 
     user_name = 'Алла'
     e_mail ='alla@mail.com'

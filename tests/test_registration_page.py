@@ -3,6 +3,8 @@ from pom.smoke_regis_auth import RegisPage
 
 
 def test_registration_new_user(web_browser):
+    """Registration new user. For successfully registration user input new user data in a test. """
+
     name = 'Алла'
     last_name = 'Аллова'
     e_mail = 'alla@email.com'
